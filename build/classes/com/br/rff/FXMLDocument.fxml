@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.br.rff.FXMLDocumentController">
+  <children>
+    <ToolBar>
+      <items>
+        <Button fx:id="btnEstado" mnemonicParsing="false" text="Pesquisar Estado" />
+        <Button fx:id="btnCidade" mnemonicParsing="false" text="Pesquisar Cidade" />
+      </items>
+    </ToolBar>
+    <StackPane id="contaner" fx:id="container" prefHeight="552.0" prefWidth="800.0" />
+  </children>
+</VBox>
